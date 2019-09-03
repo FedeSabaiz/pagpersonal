@@ -1,0 +1,151 @@
+.imagen {
+    height: 200px;
+    width: 200px;
+}
+.ventana {
+    height: 250px;
+    z-index: 0;
+    position: absolute;
+	color: #6b969d;
+}
+
+// Estilos del ruby
+.prefix__nota-1 {
+    -moz-animation: cambiaColor6 13s linear infinite 0s;
+    animation: cambiaColor6 13s linear infinite 0s;
+}
+
+.prefix__nota-2 {
+    -moz-animation: cambiaColor 6S linear infinite 0s;
+    animation: cambiaColor 6S linear infinite 0s;
+}
+
+.prefix__nota-4 {
+    -moz-animation: cambiaColor1 6S linear infinite 0s;
+    animation: cambiaColor1 6S linear infinite 0s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.prefix__nota-5 {
+    -moz-animation: cambiaColor 6S linear infinite 0s;
+    animation: cambiaColor 6S linear infinite 0s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.prefix__nota-6 {
+    -moz-animation: cambiaColor2 10s linear infinite 0s;
+    animation: cambiaColor2 10s linear infinite 0s;
+}
+
+.prefix__nota-7 {
+    -moz-animation: cambiaColor3 10S linear infinite 0s;
+    animation: cambiaColor3 10S linear infinite 0s;
+}
+
+.prefix__nota-8 {
+    -moz-animation: cambiaColor 16S linear infinite 0s;
+    animation: cambiaColor 16S linear infinite 0s;
+}
+
+.prefix__nota-9 {
+    -moz-animation: cambiaColorS 6s linear infinite 0s;
+    animation: cambiaColorS 6s linear infinite 0s;
+}
+
+.prefix__nota-10 {
+    -moz-animation: cambiaColor4 8s linear infinite 0s;
+    animation: cambiaColor4 8s linear infinite 0s;
+}
+
+@keyframes cambiaColor {
+    0% { fill: #4297C7; }
+    30% { fill: #73A8C7; }
+    80% { fill: rgb(225, 233, 233); }
+    100% { fill: #4297C7 }
+}
+
+@keyframes cambiaColor2 {
+    0% { fill: #4984B8; }
+    30% { fill: #73A8C7; }
+    80% { fill: rgb(216, 232, 233); }
+    100% { fill: #4984B8 }
+}
+
+@keyframes cambiaColor1 {
+    0% { fill: #3F667D; }
+    30% { fill: #76A0BB }
+    80% { fill: #366A87; }
+    100% { fill: #3F667D }
+}
+
+@keyframes cambiaColor3 {
+    0% { fill: #3F667D; }
+    30% { fill: #76A0BB; }
+    80% { fill: #366A87; }
+    100% { fill: #3F667D; }
+}
+
+@keyframes cambiaColor4 {
+    0% { fill: #366a87; }
+    30% { fill: #76A0BB; }
+    80% { fill: #366A87; }
+    100% { fill: #366a87; }
+}
+
+@keyframes cambiaColor6 {
+    0% { fill: #4073a1; }
+    30% { fill: #76A0BB; }
+    80% { fill: #366A87; }
+    100% { fill: #4073a1; }
+}
+
+@keyframes cambiaColorS {
+    0% { fill: #2C4757 }
+    30% { fill: #427999 }
+    70% { fill: #468EBB }
+    100% { fill: #2C4757 }
+}
+
+///////////////////////*********************///////////////////////////////
+
+// Estilos del Componente React
+
+.componentes {
+    height: 500px;
+    width: 500px;
+}
+
+
+
+///////////////////////*********************///////////////////////////////
+
+.engrane {
+    width: 150px;
+    height: 150px;
+    z-index: 0;
+	color: #6b969d;
+	-webkit-animation: rotateWord 18s linear infinite 0s;
+	-moz-animation: rotateWord 18s linear infinite 0s;
+	-o-animation: rotateWord 18s linear infinite 0s;
+	-ms-animation: rotateWord 18s linear infinite 0s;
+    animation: rotateWord 18s linear infinite 0s;
+    animation: retateEngrane 20s linear infinite 0s;
+    color: #6b889d;
+    transform: rotateZ(50deg)
+}
+
+.engrane1 {
+    animation: rotateEngrane1 20s linear infinite 0s;
+}
+
+@keyframes retateEngrane {
+    0% { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(360deg); }
+}
+
+@keyframes rotateEngrane1 {
+    0% { transform: rotateZ(0deg); }
+    100% { transform: rotateZ(-360deg); }
+}
