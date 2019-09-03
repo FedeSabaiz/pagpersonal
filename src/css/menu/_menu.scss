@@ -20,7 +20,7 @@
   	// transition: opacity 1s;
 	// opacity: 0;
 	// position: fixed;
-	top:15vw;
+	top:20vw;
 	left:-1.5vw;
 	// z-index:-100000;
 	animation: esconder 2s linear forwards;
@@ -42,7 +42,7 @@
 	-webkit-transition: opacity 1s;
   	transition: opacity 1s;
 	opacity: 1;
-	top:15vw;// fija la posición en vertical top
+	top:20vw;// fija la posición en vertical top
 	left:-1.5vw;//fija la posición en horizontal left, puedes usar right
 	z-index:99;// hace que se vea encima de otros elementos para que no se vaya a ocultar
 	animation-name: visibles;
