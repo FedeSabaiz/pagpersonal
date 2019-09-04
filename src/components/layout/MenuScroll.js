@@ -28,7 +28,7 @@ class MenuScroll extends Component {
         if(window.scrollY < 106 ) {
             this.setState( { classFlecha:'mov' } )
         }
-        console.log(window.scrollY);
+        // console.log(window.scrollY);
     }
     render() { 
 
@@ -38,7 +38,7 @@ class MenuScroll extends Component {
                 <nav className={this.state.classMenu} >
                     <ul id="navigationMenu">
                         <li>
-                            <a className="home" href="#">
+                            <a className="home" href="#home">
                                 
                             </a>
                         </li>

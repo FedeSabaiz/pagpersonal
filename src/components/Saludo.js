@@ -9,10 +9,10 @@ import { ReactComponent as LogoSass } from '../assets/sass/sassLogo.svg';
 class Saludo extends React.Component {
 	state = {  }
 
-	leerDatos(e) {
-		console.log(e.target.value);
+	// leerDatos(e) {
+	// 	console.log(e.target.value);
 		
-	}
+	// }
 
 	render() { 
 		return ( 
