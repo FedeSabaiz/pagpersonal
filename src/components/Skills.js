@@ -37,7 +37,7 @@ const Skills = () => {
                     <Logoen className=" imagen engrane1" />
                 </div>
                 <div className="col-8 ven-js">
-                    <p className="parr-skills" >Con <span className="texto-stack">JS</span> la lógica del proyecto le dará movimiento.</p>
+                    <p className="parr-skills" >Con <span className="texto-stack">JS</span> el movimiento será parte de tu proyecto.</p>
 
                 </div>
             </div>

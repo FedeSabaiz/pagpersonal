@@ -14,7 +14,7 @@ import Footer from './layout/Footer';
 const App = () => {
 	return (
 			<div>
-				<div className="container-fluid">
+				<div className="container-fluid" id="home">
 				<div className="row">
 					<Header />	
 					<Fondo />

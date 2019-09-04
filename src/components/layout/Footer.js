@@ -11,10 +11,16 @@ const Footer = () => {
                     </div>
                     <div className="row">
                         <div className="col logo-col">
-                            <LinkedinLogo className="logo-linkedin" />
+                            <a href="https://www.linkedin.com/in/federico-gómez-80bb05191" >
+                                <LinkedinLogo className="logo-linkedin" />
+
+                            </a>
                         </div>
                         <div className="col">
-                            <GithubLogo className="logo-github" />
+                            <a href="https://github.com/FedeSabaiz" >
+                                <GithubLogo className="logo-github" />
+
+                            </a>
                         </div>
                     </div>
                     
@@ -25,7 +31,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col ciudad">
                             <p>Licencias</p> 
-                            <p>snippets utilizados bajo licencia MIT</p>
+                            <p>snippet utilizado bajo licencia MIT</p>
                             <p>video "CC0"</p>
                         </div>
                     </div>    
